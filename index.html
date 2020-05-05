@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script src="scripts/app.js" defer></script>
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="container">
+      <section class="question__block">
+        <label for="question">Question:</label>
+        <input type="text" name="question" id="q" />
 
-</body>
+        <label for="answer1">Correct Answer:</label>
+        <input type="text" name="answer" id="answer1" />
+
+        <label for="answer2">Wrong Answer:</label>
+        <input type="text" name="answer" id="answer2" />
+
+        <label for="answer3">Wrong Answer:</label>
+        <input type="text" name="answer" id="answer3" />
+
+        <label for="answer4">Wrong Answer:</label>
+        <input type="text" name="answer" id="answer4" />
+
+        <button type="submit">Submit</button>
+      </section>
+    </div>
+  </body>
 </html>

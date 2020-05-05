@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-weight: 300;
+  line-height: 2.5;
+  font-family: 'Fredoka One', cursive; }
+
+.container {
+  width: 1000px;
+  margin: 0 auto; }
+
+input {
+  margin-bottom: 10px;
+  height: 4rem;
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%; }
+
+label {
+  font-size: 2rem; }
+
+button {
+  width: 200px;
+  height: 35px;
+  background-color: tomato;
+  color: white;
+  border: 1px solid #666;
+  cursor: pointer; }
+
+.question__block {
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  padding: 3rem; }
